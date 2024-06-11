@@ -71,7 +71,9 @@ in {
       install-keys = pkgs.writeShellScript "install-keys" ''
         rm -rf /etc/tinc/${netname}/hosts
         cp -R ${hosts} /etc/tinc/${netname}/hosts
-        chown -R tinc.${netname} /etc/tinc/${netname}/hosts
+        # FIXME: drop this once everyone has the new tinc user
+        chown -R tinc-${netname} /etc/tinc/${netname}/hosts ||
+          chown -R tinc.${netname} /etc/tinc/${netname}/hosts
         chmod -R u+w /etc/tinc/${netname}/hosts
       '';
     in {
@@ -94,8 +96,6 @@ in {
       reloadTriggers = lib.mkForce [ ];
       # Some hosts require VPN for nixos-rebuild, so we don't want to restart it on update
       reloadIfChanged = true;
-      # also in https://github.com/NixOS/nixpkgs/pull/106715
-      serviceConfig.ExecReload = "${config.services.tinc.networks.${netname}.package}/bin/tinc -n ${netname} reload";
     };
 
     networking.firewall.allowedTCPPorts = [ cfg.port ];
@@ -106,6 +106,7 @@ in {
     '';
 
     systemd.network.enable = true;
+    networking.useNetworkd = true;
     systemd.network.networks."${netname}".extraConfig = ''
       [Match]
       Name = tinc.${netname}

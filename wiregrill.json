@@ -11,6 +11,13 @@
     ],
     "publicKey": "h2GFkqW1ThHpDiALrLkJEsR5NU1lXHvwk0Kers1vIxg="
   },
+  "ahuatangata": {
+    "allowedIPs": [
+      "10.244.10.246",
+      "42:1:3c46:27cf:7b23:3a04:143a:d223"
+    ],
+    "publicKey": "QPDGBEYJ1znqUdjy6JWZJ+cqPMcU67dHlOX5beTM6TA="
+  },
   "alnus": {
     "allowedIPs": [
       "42:1:a46e:99a9:9166:ae88:208:9645"
@@ -42,11 +49,11 @@
     ],
     "publicKey": "cGuBSB1DftIsanbxrSG/i4FiC+TmQrs+Z0uE6SPscHY="
   },
-  "echelon": {
+  "fu": {
     "allowedIPs": [
-      "42:1:ce16::3"
+      "42:1:a46e:6a8d:a4d0:ef23:161b:5b7c"
     ],
-    "publicKey": "SLdk0lph2rSFU+3dyrWDU1CT/oU+HPcOVYeGVIgDpEc="
+    "publicKey": "Nds8Gja25t9xlQqr9zQIUAXXidt42cEIjq9VxUHkBQw="
   },
   "g7power": {
     "allowedIPs": [
@@ -87,6 +94,13 @@
       "42:1:ce16::189"
     ],
     "publicKey": "IIBAiG7jZEliQJJsNUQswLsB5FQFkAfq5IwyHAp71Vw="
+  },
+  "leg": {
+    "allowedIPs": [
+      "10.244.3.43",
+      "42:1:a46e:c29a:c7c8:fc91:abb8:ed76"
+    ],
+    "publicKey": "tlGh9gpV09TspLVV/9+Z5T5fhMAQcz5c5L3KNvR/d1I="
   },
   "littleT": {
     "allowedIPs": [
@@ -129,7 +143,7 @@
       "10.244.3.1",
       "42:1:a46e:c68b:4db0:3a27:7cfb:9ef4"
     ],
-    "endpoint": "188.68.36.196:51820",
+    "endpoint": "185.162.251.237:51820",
     "persistentKeepalive": 61,
     "publicKey": "KiIiwkuin+E4FXqFajJjnoGKkHW3H3FzIx5EQrF1+lw="
   },
@@ -139,11 +153,25 @@
     ],
     "publicKey": "UgvgarDtuSvbciNx5SU2NDbctb9/OTQ9Kr8H/O3931A="
   },
+  "omo": {
+    "allowedIPs": [
+      "10.244.245.5",
+      "42:1:e644:920e:23f6:353a:c09:5a66"
+    ],
+    "publicKey": "JmcpzkwgKymVecZqaV0ODQactoVwGGlEHcfYIOCkx3A="
+  },
   "orange": {
     "allowedIPs": [
       "42:1:ce16::12a"
     ],
     "publicKey": "NP8zM9+ocwsHhY9Rn6tFqIU1FR8JidqtDs7IKpl3yU8="
+  },
+  "pa": {
+    "allowedIPs": [
+      "10.244.3.103",
+      "42:1:a46e:3d82:9513:229d:4359:7826"
+    ],
+    "publicKey": "X+Sm5uyeI1B6cVeyxPz0YXy6L5jrs2GKwfjfPuF67GA="
   },
   "phone": {
     "allowedIPs": [
@@ -151,6 +179,13 @@
       "42:1:ce16::a"
     ],
     "publicKey": "FY4PB8E/RC2JvtLgq/IDyMmZ9Ln6pz6eGyoytmUFMgk="
+  },
+  "pi": {
+    "allowedIPs": [
+      "10.244.3.102",
+      "42:1:a46e:1eb7:85b4:2e17:287:7c85"
+    ],
+    "publicKey": "HlKTr86mTywYtRIQNhxs8jeSw5hwVTeKFiSUYglc4T8="
   },
   "prism": {
     "allowedIPs": [
@@ -180,11 +215,24 @@
     ],
     "publicKey": "LPMs1h9+8ABqeZsS6xmHC7votPqpUT609XuktAhaik8="
   },
+  "rtgraphene": {
+    "allowedIPs": [
+      "10.244.20.20",
+      "42:1:3c46:bb9d:87b8:4272:ab04:a670"
+    ],
+    "publicKey": "IZ7tnD5ZVqO886hFzk6k92R70p1J6jYvyIEAWUccehU="
+  },
   "ru": {
     "allowedIPs": [
       "42:1:a46e:1270:ed5a:d332:c106:437"
     ],
     "publicKey": "+3GdhwFYmBr46bBwyqrY3UH9fU1b8c2Vqmx9JTY4syU="
+  },
+  "savarcast": {
+    "allowedIPs": [
+      "42:1:e644:4a2f:1f93:4696:f1d9:ca"
+    ],
+    "publicKey": "mM/QKHTnLlC5qyClRY9WZKg3TK4F+WpLIKRtjCmCCHM="
   },
   "shackdev": {
     "allowedIPs": [
@@ -224,7 +272,7 @@
       "10.244.245.4",
       "42:1:e644:afb2:95c8:f993:8906:3132"
     ],
-    "publicKey": "T7Cr80dBbtPFCPdz4OS7whDlQJzn2Orclq5rLVtD+Ds="
+    "publicKey": "yAKvxTvcEVdn+MeKsmptZkR3XSEue+wSyLxwcjBYxxo="
   },
   "ubik": {
     "allowedIPs": [
@@ -239,14 +287,9 @@
     ],
     "publicKey": "FpghL2Drdg+xwqcOsDgePgUx3X3XsX9f56BPLuF690g="
   },
-  "wu": {
-    "allowedIPs": [
-      "42:1:a46e:b17d:cf4e:39ae:462a:f95"
-    ],
-    "publicKey": "68bL6l3/sjbirva80tm0Dw6/PJu1S95nJC58gWCh42E="
-  },
   "x": {
     "allowedIPs": [
+      "10.243.245.6",
       "42:1:e644:162:2d71:1642:b726:b044"
     ],
     "publicKey": "fe5smvKVy5GAn7EV4w4tav6mqIAKhGWQotm7dRuRt1g="
@@ -268,6 +311,12 @@
       "42:1:ce16::3110"
     ],
     "publicKey": "YeWbR3mW+nOVBE7bcNSzF5fjj9ppd8OGHBJqERAUVxU="
+  },
+  "zoppo": {
+    "allowedIPs": [
+      "42:1:a46e:205f:cc6b:6433:55d4:574b"
+    ],
+    "publicKey": "5YFGAb9Tg/5HH+XHSKanh4P6jE7KTrViwqVuEkmQeSg="
   },
   "zu": {
     "allowedIPs": [
